@@ -1,0 +1,33 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "PridevelEmployee": {
+        "@id": "https://raw.githubusercontent.com/PrideVelConsulting/polygon_id_schema/main/json-ld/employee.json-ld#PridevelEmployee",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://github.com/PrideVelConsulting/polygon_id_schema/blob/main/vocab/employee.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "birthDate": {
+            "@id": "vocab:birthDate",
+            "@type": "xsd:integer"
+          },
+          "gender": {
+            "@id": "vocab:gender",
+            "@type": "xsd:string"
+          },
+          "designation": {
+            "@id": "vocab:designation",
+            "@type": "xsd:string"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "Trigon": {
+        "@id": "https://raw.githubusercontent.com/PrideVelConsulting/polygon_id_schema/main/json-ld/trigon_sso.json-ld#Trigon",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://github.com/PrideVelConsulting/polygon_id_schema/blob/main/vocab/trigon_sso.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "username": {
+            "@id": "vocab:username",
+            "@type": "xsd:string"
+          },
+          "email": {
+            "@id": "vocab:email",
+            "@type": "xsd:string"
+          }
+        }
+      }
+    }
+  ]
+}
