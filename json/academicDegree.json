@@ -3,8 +3,8 @@
     "type": "object",
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://raw.githubusercontent.com/PrideVelConsulting/polygon_id_schema/main/json-ld/employee.json-ld",
-            "jsonSchema": "https://raw.githubusercontent.com/PrideVelConsulting/polygon_id_schema/main/json/employee.json"
+            "jsonLdContext": "https://raw.githubusercontent.com/PrideVelConsulting/polygon_id_schema/main/json-ld/academicDegree.json-ld",
+            "jsonSchema": "https://raw.githubusercontent.com/PrideVelConsulting/polygon_id_schema/main/json/academicDegree.json"
         }
     },
     "required": [
@@ -107,13 +107,13 @@
             "required": [
                 "id",
                 "fullname",
-                "birthDate",
-                "gender",
-                "contact",
-                "designation",
-                "department",
-                "hireDate",
-                "salary"
+                "studentId",
+                "awardDate",
+                "degreeTitle",
+                "fieldOfStudy",
+                "university",
+                "programDuration",
+                "cgpa"
             ],
             "properties": {
                 "id": {
@@ -124,26 +124,26 @@
                 "fullname": {
                     "type": "string"
                 },
-                "birthDate": {
-                    "type": "integer"
-                },
-                "gender": {
+                "studentId": {
                     "type": "string"
                 },
-                "contact": {
+                "awardDate": {
                     "type": "integer"
                 },
-                "designation": {
+                "degreeTitle": {
                     "type": "string"
                 },
-                "department": {
+                "fieldOfStudy": {
                     "type": "string"
                 },
-                "hireDate": {
+                "university": {
+                    "type": "string"
+                },
+                "programDuration": {
                     "type": "integer"
                 },
-                "salary": {
-                    "type": "integer"
+                "cgpa": {
+                    "type": "number"
                 }
             }
         }

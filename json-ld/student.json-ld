@@ -5,17 +5,21 @@
       "@protected": true,
       "id": "@id",
       "type": "@type",
-      "Employee": {
-        "@id": "https://raw.githubusercontent.com/PrideVelConsulting/polygon_id_schema/main/json-ld/employee.json-ld#Employee",
+      "Student": {
+        "@id": "https://raw.githubusercontent.com/PrideVelConsulting/polygon_id_schema/main/json-ld/student.json-ld#Student",
         "@context": {
           "@version": 1.1,
           "@protected": true,
           "id": "@id",
           "type": "@type",
-          "vocab": "https://github.com/PrideVelConsulting/polygon_id_schema/blob/main/vocab/employee.md#",
+          "vocab": "https://github.com/PrideVelConsulting/polygon_id_schema/blob/main/vocab/student.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "fullname": {
             "@id": "vocab:fullname",
+            "@type": "xsd:string"
+          },
+          "studentId": {
+            "@id": "vocab:studentId",
             "@type": "xsd:string"
           },
           "birthDate": {
@@ -30,21 +34,21 @@
             "@id": "vocab:contact",
             "@type": "xsd:integer"
           },
-          "designation": {
-            "@id": "vocab:designation",
+          "program": {
+            "@id": "vocab:program",
             "@type": "xsd:string"
           },
-          "department": {
-            "@id": "vocab:department",
+          "university": {
+            "@id": "vocab:university",
             "@type": "xsd:string"
           },
-          "hireDate": {
-            "@id": "vocab:hireDate",
+          "enrollmentDate": {
+            "@id": "vocab:enrollmentDate",
             "@type": "xsd:integer"
           },
-          "salary": {
-            "@id": "vocab:salary",
-            "@type": "xsd:integer"
+          "campusAddress": {
+            "@id": "vocab:campusAddress",
+            "@type": "xsd:string"
           }
         }
       }

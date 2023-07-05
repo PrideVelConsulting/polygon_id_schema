@@ -1,0 +1,53 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "AcademicDegree": {
+        "@id": "https://raw.githubusercontent.com/PrideVelConsulting/polygon_id_schema/main/json-ld/academicDegree.json-ld#AcademicDegree",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://github.com/PrideVelConsulting/polygon_id_schema/blob/main/vocab/academicDegree.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "fullname": {
+            "@id": "vocab:fullname",
+            "@type": "xsd:string"
+          },
+          "studentId": {
+            "@id": "vocab:studentId",
+            "@type": "xsd:string"
+          },
+          "awardDate": {
+            "@id": "vocab:awardDate",
+            "@type": "xsd:integer"
+          },
+          "degreeTitle": {
+            "@id": "vocab:degreeTitle",
+            "@type": "xsd:string"
+          },
+          "fieldOfStudy": {
+            "@id": "vocab:fieldOfStudy",
+            "@type": "xsd:string"
+          },
+          "university": {
+            "@id": "vocab:university",
+            "@type": "xsd:string"
+          },
+          "programDuration": {
+            "@id": "vocab:programDuration",
+            "@type": "xsd:integer"
+          },
+          "cgpa": {
+            "@id": "vocab:cgpa",
+            "@type": "xsd:number"
+          }
+        }
+      }
+    }
+  ]
+}

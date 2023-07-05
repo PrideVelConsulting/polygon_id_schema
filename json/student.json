@@ -3,8 +3,8 @@
     "type": "object",
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://raw.githubusercontent.com/PrideVelConsulting/polygon_id_schema/main/json-ld/employee.json-ld",
-            "jsonSchema": "https://raw.githubusercontent.com/PrideVelConsulting/polygon_id_schema/main/json/employee.json"
+            "jsonLdContext": "https://raw.githubusercontent.com/PrideVelConsulting/polygon_id_schema/main/json-ld/student.json-ld",
+            "jsonSchema": "https://raw.githubusercontent.com/PrideVelConsulting/polygon_id_schema/main/json/student.json"
         }
     },
     "required": [
@@ -107,13 +107,14 @@
             "required": [
                 "id",
                 "fullname",
+                "studentId",
                 "birthDate",
                 "gender",
                 "contact",
-                "designation",
-                "department",
-                "hireDate",
-                "salary"
+                "program",
+                "university",
+                "enrollmentDate",
+                "campusAddress"
             ],
             "properties": {
                 "id": {
@@ -122,6 +123,9 @@
                     "format": "uri"
                 },
                 "fullname": {
+                    "type": "string"
+                },
+                "studentId": {
                     "type": "string"
                 },
                 "birthDate": {
@@ -133,17 +137,17 @@
                 "contact": {
                     "type": "integer"
                 },
-                "designation": {
+                "program": {
                     "type": "string"
                 },
-                "department": {
+                "university": {
                     "type": "string"
                 },
-                "hireDate": {
+                "enrollmentDate": {
                     "type": "integer"
                 },
-                "salary": {
-                    "type": "integer"
+                "campusAddress": {
+                    "type": "string"
                 }
             }
         }
