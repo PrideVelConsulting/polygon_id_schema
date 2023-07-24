@@ -107,7 +107,8 @@
             "required": [
                 "id",
                 "username",
-                "email"
+                "email",
+                "human"
             ],
             "properties": {
                 "id": {
@@ -120,6 +121,9 @@
                 },
                 "email": {
                     "type": "string"
+                },
+                "human": {
+                    "type": "boolean"
                 }
             }
         }

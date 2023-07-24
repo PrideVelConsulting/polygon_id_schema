@@ -21,6 +21,10 @@
           "email": {
             "@id": "vocab:email",
             "@type": "xsd:string"
+          },
+          "human": {
+            "@id": "vocab:human",
+            "@type": "xsd:boolean"
           }
         }
       }
