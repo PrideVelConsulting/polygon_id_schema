@@ -108,13 +108,10 @@
                 "id",
                 "fullname",
                 "studentId",
-                "birthDate",
-                "gender",
-                "contact",
                 "program",
+                "school",
                 "university",
-                "enrollmentDate",
-                "campusAddress"
+                "enrollmentDate"
             ],
             "properties": {
                 "id": {
@@ -128,16 +125,10 @@
                 "studentId": {
                     "type": "string"
                 },
-                "birthDate": {
-                    "type": "integer"
-                },
-                "gender": {
+                "program": {
                     "type": "string"
                 },
-                "contact": {
-                    "type": "integer"
-                },
-                "program": {
+                "school": {
                     "type": "string"
                 },
                 "university": {
@@ -145,9 +136,6 @@
                 },
                 "enrollmentDate": {
                     "type": "integer"
-                },
-                "campusAddress": {
-                    "type": "string"
                 }
             }
         }

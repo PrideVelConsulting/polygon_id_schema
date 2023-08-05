@@ -5,8 +5,8 @@
       "@protected": true,
       "id": "@id",
       "type": "@type",
-      "Student": {
-        "@id": "https://raw.githubusercontent.com/PrideVelConsulting/polygon_id_schema/main/json-ld/student.json-ld#Student",
+      "StudentId": {
+        "@id": "https://raw.githubusercontent.com/PrideVelConsulting/polygon_id_schema/main/json-ld/student.json-ld#StudentId",
         "@context": {
           "@version": 1.1,
           "@protected": true,
@@ -22,20 +22,12 @@
             "@id": "vocab:studentId",
             "@type": "xsd:string"
           },
-          "birthDate": {
-            "@id": "vocab:birthDate",
-            "@type": "xsd:integer"
-          },
-          "gender": {
-            "@id": "vocab:gender",
-            "@type": "xsd:string"
-          },
-          "contact": {
-            "@id": "vocab:contact",
-            "@type": "xsd:integer"
-          },
           "program": {
             "@id": "vocab:program",
+            "@type": "xsd:string"
+          },
+          "school": {
+            "@id": "vocab:school",
             "@type": "xsd:string"
           },
           "university": {
@@ -45,10 +37,6 @@
           "enrollmentDate": {
             "@id": "vocab:enrollmentDate",
             "@type": "xsd:integer"
-          },
-          "campusAddress": {
-            "@id": "vocab:campusAddress",
-            "@type": "xsd:string"
           }
         }
       }
