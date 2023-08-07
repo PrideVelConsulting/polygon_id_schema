@@ -135,7 +135,8 @@
                     "type": "string"
                 },
                 "enrollmentDate": {
-                    "type": "integer"
+                    "type": "string",
+                    "format": "date-time"
                 }
             }
         }

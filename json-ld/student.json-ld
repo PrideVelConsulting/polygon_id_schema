@@ -36,7 +36,7 @@
           },
           "enrollmentDate": {
             "@id": "vocab:enrollmentDate",
-            "@type": "xsd:integer"
+            "@type": "xsd:dateTime"
           }
         }
       }
