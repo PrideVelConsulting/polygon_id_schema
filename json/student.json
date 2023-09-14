@@ -123,8 +123,7 @@
                     "type": "string"
                 },
                 "birthDate": {
-                    "type": "string",
-                    "format": "date-time"
+                    "type": "string"
                 },
                 "studentId": {
                     "type": "string"
@@ -139,8 +138,7 @@
                     "type": "string"
                 },
                 "enrollmentDate": {
-                    "type": "string",
-                    "format": "date-time"
+                    "type": "string"
                 }
             }
         }
