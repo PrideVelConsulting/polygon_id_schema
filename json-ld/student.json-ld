@@ -20,7 +20,7 @@
           },
           "birthDate": {
             "@id": "vocab:birthDate",
-            "@type": "xsd:string"
+            "@type": "xsd:dateTime"
           },
           "studentId": {
             "@id": "vocab:studentId",
@@ -40,7 +40,7 @@
           },
           "enrollmentDate": {
             "@id": "vocab:enrollmentDate",
-            "@type": "xsd:string"
+            "@type": "xsd:dateTime"
           }
         }
       }
