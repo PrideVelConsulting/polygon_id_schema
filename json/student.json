@@ -122,6 +122,10 @@
                 "fullname": {
                     "type": "string"
                 },
+                "birthDate": {
+                    "type": "string",
+                    "format": "date-time"
+                },
                 "studentId": {
                     "type": "string"
                 },

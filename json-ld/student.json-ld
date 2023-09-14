@@ -18,6 +18,10 @@
             "@id": "vocab:fullname",
             "@type": "xsd:string"
           },
+          birthDate": {
+            "@id": "vocab:birthDate",
+            "@type": "xsd:dateTime"
+          },
           "studentId": {
             "@id": "vocab:studentId",
             "@type": "xsd:string"

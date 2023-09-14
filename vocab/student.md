@@ -2,6 +2,10 @@
 
 Describes the full name of the student
 
+# birthDate
+
+Describes the birth date of the student
+
 # studentId
 
 Describes the student Id of the student
