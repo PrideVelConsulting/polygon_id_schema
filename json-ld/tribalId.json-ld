@@ -18,8 +18,8 @@
             "@id": "vocab:name",
             "@type": "xsd:string"
           },
-          "dateofBirth": {
-            "@id": "vocab:dateofBirth",
+          "dateOfBirth": {
+            "@id": "vocab:dateOfBirth",
             "@type": "xsd:integer"
           },
           "gender": {
