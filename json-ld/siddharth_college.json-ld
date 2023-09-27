@@ -26,8 +26,8 @@
             "@id": "vocab:birthDate",
             "@type": "xsd:integer"
           },
-          "emaildId": {
-            "@id": "vocab:emaildId",
+          "emailId": {
+            "@id": "vocab:emailId",
             "@type": "xsd:string"
           },
           "program": {
