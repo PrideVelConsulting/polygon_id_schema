@@ -108,6 +108,7 @@
                 "id",
                 "photo",
                 "fullname",
+                "birthDate",
                 "emailId",
                 "program",
                 "branch",
