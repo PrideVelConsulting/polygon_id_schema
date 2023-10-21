@@ -14,6 +14,10 @@
           "type": "@type",
           "vocab": "https://github.com/PrideVelConsulting/polygon_id_schema/blob/main/vocab/student.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "photo": {
+            "@id": "vocab:photo",
+            "@type": "xsd:string"
+          },
           "fullname": {
             "@id": "vocab:fullname",
             "@type": "xsd:string"

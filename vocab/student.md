@@ -1,3 +1,7 @@
+# photo
+
+Describes the photo of the student
+
 # fullname
 
 Describes the full name of the student
