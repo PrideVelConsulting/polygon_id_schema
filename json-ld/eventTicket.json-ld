@@ -1,0 +1,49 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "EventTicket": {
+        "@id": "https://raw.githubusercontent.com/PrideVelConsulting/polygon_id_schema/main/json-ld/eventTicket.json-ld#EventTicket",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://github.com/PrideVelConsulting/polygon_id_schema/blob/main/vocab/eventTicket.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "guest": {
+            "@id": "vocab:guest",
+            "@type": "xsd:string"
+          },
+          "event": {
+            "@id": "vocab:event",
+            "@type": "xsd:string"
+          },
+          "email": {
+            "@id": "vocab:email",
+            "@type": "xsd:string"
+          },
+          "host": {
+            "@id": "vocab:host",
+            "@type": "xsd:string"
+          },
+          "venue": {
+            "@id": "vocab:venue",
+            "@type": "xsd:string"
+          },
+          "date": {
+            "@id": "vocab:date",
+            "@type": "xsd:string"
+          },
+          "time": {
+            "@id": "vocab:time",
+            "@type": "xsd:string"
+          }
+        }
+      }
+    }
+  ]
+}
