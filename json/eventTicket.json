@@ -113,7 +113,7 @@
                 "venue",
                 "date",
                 "time",
-                "qr-code"
+                "qrcode"
             ],
             "properties": {
                 "id": {

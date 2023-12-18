@@ -27,3 +27,5 @@ Describes the date of the event
 Describes the time of the event
 
 # qrcode
+
+Describes the qrcode of the event
