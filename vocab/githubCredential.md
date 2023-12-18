@@ -34,6 +34,6 @@ Count of the github followers of the user
 
 Count of the github following of the user 
 
-# type 
+# types 
 
-Name of the github type of the user 
+Name of the github types of the user 
