@@ -41,7 +41,11 @@
           "time": {
             "@id": "vocab:time",
             "@type": "xsd:string"
-          }
+          },
+          "qrcode": {
+            "@id": "vocab:qrcode",
+            "@type": "xsd:string"
+          },
         }
       }
     }

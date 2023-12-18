@@ -112,7 +112,8 @@
                 "host",
                 "venue",
                 "date",
-                "time"
+                "time",
+                "qr-code"
             ],
             "properties": {
                 "id": {
@@ -139,6 +140,9 @@
                     "type": "string"
                 },
                 "time": {
+                    "type":"string"
+                },
+                "qrcode": {
                     "type":"string"
                 }
             }
