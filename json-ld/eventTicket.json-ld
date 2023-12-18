@@ -45,7 +45,7 @@
           "qrcode": {
             "@id": "vocab:qrcode",
             "@type": "xsd:string"
-          },
+          }
         }
       }
     }
