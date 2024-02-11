@@ -3,8 +3,7 @@
     "type": "object",
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://raw.githubusercontent.com/PrideVelConsulting/polygon_id_schema/main/json-ld/trigon_sso.json-ld",
-            "jsonSchema": "https://raw.githubusercontent.com/PrideVelConsulting/polygon_id_schema/main/json/trigon_sso.json"
+            "jsonLdContext": "https://raw.githubusercontent.com/PrideVelConsulting/polygon_id_schema/main/json-ld/trigon_sso.json-ld"
         }
     },
     "required": [
